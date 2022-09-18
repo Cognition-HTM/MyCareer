@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ExploreDetailsActivity"
+    android:background="@color/second_color"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_counselor_activity_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_title_explore_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="7sp"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_counselor_activity_details"
+        android:background="@drawable/round_shape_sheet"
+        android:elevation="40sp"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            app:cardCornerRadius="20sp"
+            app:cardElevation="15sp"
+            android:backgroundTint="#FFFFFf"
+            android:outlineSpotShadowColor="@color/second_color"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15sp"
+                >
+                <ImageView
+                    android:id="@+id/iv_branch_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/tv_title_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/second_color"
+                    />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/iv_branch_explore_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_title_explore_details_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="details"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_branch_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_list_type_branches"
+                />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sparklead.mycareer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:exported="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCareer"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activities.QuizResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home"
+            />
+        <activity
+            android:name=".ui.activities.QuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home" />
+        <activity
+            android:name=".ui.activities.ReadBlogsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home" />
+        <activity
+            android:name=".ui.activities.ExamPathDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home" />
+        <activity
+            android:name=".ui.activities.AptitudeTestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="true"
+            tools:node="merge" />
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:exported="false"
+            tools:node="merge" />
+        <activity
+            android:name=".ui.activities.UpgradeDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home"
+            tools:node="merge" />
+        <activity
+            android:name=".ui.activities.ViewNewsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_home" />
+        <activity
+            android:name=".ui.activities.CounselorEditActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_counselor_details" />
+        <activity
+            android:name=".ui.activities.CounselorDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_counselor_details" />
+        <activity
+            android:name=".ui.activities.CounselorDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_counselor" />
+        <activity
+            android:name=".ui.activities.CounselorProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_signup"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.activities.BranchInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_signup" />
+        <activity
+            android:name=".ui.activities.ForgetPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_signup" />
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_signup"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.activities.SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_signup" />
+        <activity
+            android:name=".ui.activities.ExploreDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.IntroActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CaGui_white" />
+        <activity
+            android:name=".ui.activities.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CaGui_splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.SettingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CaGui_setting" />
+        <activity
+            android:name=".ui.activities.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

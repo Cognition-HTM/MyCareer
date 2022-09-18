@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="12sp"
+                android:layout_marginRight="12sp"
+                android:backgroundTint="#FFFFFf"
+                android:outlineSpotShadowColor="@color/second_color"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10sp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_details_info1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_info_name1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="8sp"
+                                android:text="Overview"
+                                android:textColor="@color/second_color"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_translate1"
+                                android:layout_width="22sp"
+                                android:layout_height="22sp"
+                                android:src="@drawable/translate" />
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:id="@+id/btn_speak1"
+                                android:layout_width="27sp"
+                                android:layout_height="27sp"
+                                android:src="@drawable/speak1"
+                                android:scaleType="centerCrop"
+                                />
+                            <pl.droidsonroids.gif.GifImageView
+                                android:id="@+id/btn_mute1"
+                                android:layout_width="27sp"
+                                android:visibility="gone"
+                                android:layout_height="27sp"
+                                android:src="@drawable/mute2"
+                                android:scaleType="centerCrop"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+
+
+                            <ImageView
+                                android:id="@+id/iv_visible_arrow1"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginEnd="2sp"
+                                android:src="@drawable/down_arrow" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_line1"
+                        android:layout_width="150sp"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="8sp"
+                        android:background="@drawable/line_background"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="10sp">
+
+                        <TextView
+                            android:id="@+id/tv_details_info1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/grey"
+                            android:text="@string/expand_string_test1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_info2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="12sp"
+                android:backgroundTint="#FFFFFf"
+                android:outlineSpotShadowColor="@color/second_color"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_info1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10sp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_details_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_info_name2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="8sp"
+                                android:text="Path"
+                                android:textColor="@color/second_color"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+
+                            <ImageView
+                                android:id="@+id/iv_translate2"
+                                android:layout_width="22sp"
+                                android:layout_height="22sp"
+                                android:src="@drawable/translate" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:id="@+id/btn_speak2"
+                                android:layout_width="27sp"
+                                android:layout_height="27sp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/speak1" />
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:id="@+id/btn_mute2"
+                                android:layout_width="27sp"
+                                android:layout_height="27sp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/mute2"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0sp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_visible_arrow2"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:layout_marginEnd="2sp"
+                                android:src="@drawable/down_arrow" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_line2"
+                        android:layout_width="150sp"
+                        android:layout_height="1sp"
+                        android:layout_marginLeft="8sp"
+                        android:background="@drawable/line_background"
+                        android:orientation="horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="10sp">
+
+                        <TextView
+                            android:id="@+id/tv_details_info2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/expand_string_test1"
+
+                            android:textColor="@color/grey" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_info3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="20sp"-->
+<!--                android:layout_marginLeft="12sp"-->
+<!--                android:layout_marginRight="12sp"-->
+<!--                android:backgroundTint="#FFFFFf"-->
+
+<!--                android:outlineSpotShadowColor="@color/second_color"-->
+<!--                app:cardCornerRadius="20sp"-->
+<!--                app:cardElevation="20sp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/cv_info2">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="10sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/ll_details_info3"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="6"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv_info_name3"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:padding="8sp"-->
+<!--                                android:text="Responsibilities"-->
+<!--                                android:textColor="@color/second_color"-->
+<!--                                android:textSize="20sp" />-->
+
+<!--                        </LinearLayout>-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center">-->
+
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/iv_translate3"-->
+<!--                                android:layout_width="22sp"-->
+<!--                                android:layout_height="22sp"-->
+<!--                                android:src="@drawable/translate" />-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            >-->
+
+<!--                            <pl.droidsonroids.gif.GifImageView-->
+<!--                                android:id="@+id/btn_speak3"-->
+<!--                                android:layout_width="27sp"-->
+<!--                                android:layout_height="27sp"-->
+<!--                                android:src="@drawable/speak1"-->
+<!--                                android:scaleType="centerCrop"-->
+<!--                                />-->
+<!--                            <pl.droidsonroids.gif.GifImageView-->
+<!--                                android:id="@+id/btn_mute3"-->
+<!--                                android:layout_width="27sp"-->
+<!--                                android:visibility="gone"-->
+<!--                                android:layout_height="27sp"-->
+<!--                                android:src="@drawable/mute2"-->
+<!--                                android:scaleType="centerCrop"-->
+<!--                                />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center_vertical">-->
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/iv_visible_arrow3"-->
+<!--                                android:layout_width="30sp"-->
+<!--                                android:layout_height="30sp"-->
+<!--                                android:layout_marginEnd="2sp"-->
+<!--                                android:src="@drawable/down_arrow" />-->
+
+<!--                        </LinearLayout>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/ll_line3"-->
+<!--                        android:layout_width="150sp"-->
+<!--                        android:layout_height="1sp"-->
+<!--                        android:layout_marginLeft="8sp"-->
+<!--                        android:background="@drawable/line_background"-->
+<!--                        android:orientation="horizontal" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10sp">-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tv_details_info3"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:textColor="@color/grey"-->
+
+<!--                            android:text="@string/expand_string_test1" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_info4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="20sp"-->
+<!--                android:layout_marginLeft="12sp"-->
+<!--                android:layout_marginRight="12sp"-->
+<!--                android:backgroundTint="#FFFFFf"-->
+
+<!--                android:outlineSpotShadowColor="@color/second_color"-->
+<!--                app:cardCornerRadius="20sp"-->
+<!--                app:cardElevation="20sp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/cv_info3">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:padding="10sp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/ll_details_info4"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="6"-->
+<!--                            android:orientation="horizontal">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv_info_name4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:padding="8sp"-->
+<!--                                android:text="skills"-->
+<!--                                android:textColor="@color/second_color"-->
+<!--                                android:textSize="20sp" />-->
+
+<!--                        </LinearLayout>-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center">-->
+
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/iv_translate4"-->
+<!--                                android:layout_width="22sp"-->
+<!--                                android:layout_height="22sp"-->
+<!--                                android:src="@drawable/translate" />-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            >-->
+
+<!--                            <pl.droidsonroids.gif.GifImageView-->
+<!--                                android:id="@+id/btn_speak4"-->
+<!--                                android:layout_width="27sp"-->
+<!--                                android:layout_height="27sp"-->
+<!--                                android:src="@drawable/speak1"-->
+<!--                                android:scaleType="centerCrop"-->
+<!--                                />-->
+<!--                            <pl.droidsonroids.gif.GifImageView-->
+<!--                                android:id="@+id/btn_mute4"-->
+<!--                                android:layout_width="27sp"-->
+<!--                                android:visibility="gone"-->
+<!--                                android:layout_height="27sp"-->
+<!--                                android:src="@drawable/mute2"-->
+<!--                                android:scaleType="centerCrop"-->
+<!--                                />-->
+
+
+<!--                        </LinearLayout>-->
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="0sp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center_vertical">-->
+
+<!--                            <ImageView-->
+<!--                                android:id="@+id/iv_visible_arrow4"-->
+<!--                                android:layout_width="30sp"-->
+<!--                                android:layout_height="30sp"-->
+<!--                                android:layout_marginEnd="2sp"-->
+<!--                                android:src="@drawable/down_arrow" />-->
+
+<!--                        </LinearLayout>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/ll_line4"-->
+<!--                        android:layout_width="150sp"-->
+<!--                        android:layout_height="1sp"-->
+<!--                        android:layout_marginLeft="8sp"-->
+<!--                        android:background="@drawable/line_background"-->
+<!--                        android:orientation="horizontal" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10sp">-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/tv_details_info4"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:textColor="@color/grey"-->
+
+<!--                            android:text="@string/expand_string_test1" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="600sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_info2"
+                android:layout_marginTop="20sp"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" "
+                    />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

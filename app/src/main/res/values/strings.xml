@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Career</string>
+    <string name="title_activity_dasboard">DasboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_faqs">FAQs</string>
+    <string name="title_counselor">Counselor</string>
+    <string name="counselor">Counselor</string>
+    <string name="faqs">FAQs</string>
+    <string name="Answer_1">Yes,students with visual/learning impairment can also attempt the test</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="expand_string_test1">A language of business ,that not just a number-crunching but a humble beginning in the business world. A system in which the financial information is identified ,recorded, analyzed, audited and reported for the use of decision-makers.</string>
+    <string name="shrink_test1">A language of business, that not just a number- crunching but a humble beginning </string>
+    <string name="forget_password"> Enter your username and e-mail address \n we\'ll send you an email to reset your \n password</string>
+
+
+    <string name="please_wait">Please Wait</string>
+    <string name="err_msg_first_name">Please enter your full name. </string>
+    <string name="err_msg_email">Please enter your email. </string>
+    <string name="err_msg_password">Please enter password. </string>
+    <string name="err_msg_checkbox_confirm">Please accept terms and conditions.</string>
+    <string name="err_msg_agree">Please agree terms and condition</string>
+
+    <string name="about">I’m an Android developer \nI’m 20 years old and work as a senior Android developer at Google in India — not because I have a fancy education, but rather a ton of practical experience. Here’s my story.</string>
+    <string name="test_details">Howard Gardner first described his theory in 1983 in his book “Frames of Mind: The Theory of Multiple Intelligences.” Here he explained his theory that everyone has different types of intelligence, and may score highly on some and low on others. In this book, he described these eight types of intelligence, and later suggested a ninth. He calls these “Intelligence Types.”
+    </string>
+
+    <string-array name="languages">
+        <item>En</item>
+        <item>Hi</item>
+        <item>Kn</item>
+        <item>ta</item>
+    </string-array>
+
+</resources>

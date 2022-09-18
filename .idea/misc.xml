@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable-v24/drawable_gender_tab_selector.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable-v24/drawable_gender_tab_text_color_selector.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/background_edt.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/button_background.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/button_background_view_details.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/card_background.xml" value="0.2115" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/circle_dialog.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/counselor_background_line.xml" value="0.176" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/description_background_line.xml" value="0.176" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/edit_background.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/gradient_1.xml" value="0.2" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/gradient_2.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/ic_baseline_alternate_email_24.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/ic_vector_settings.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/indicator_active_background.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/indicator_inactive_background.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/line_background.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/next_background.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/next_background_outer.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/option_background_style.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/orange_background.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/purple_background.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/round_shape_sheet.xml" value="0.2115" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/search_background.xml" value="0.2115" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/search_background_explore.xml" value="0.2115" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/search_background_faqs.xml" value="0.2115" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/splash_screen_background.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/drawable/view_pager_background.xml" value="0.2305" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout-v28/activity_explore_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout-v28/counselor_list_item.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_basic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_branch_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_counselor_dashboard.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_counselor_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_counselor_edit.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_counselor_profile.xml" value="0.264" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_dasboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_exam_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_exam_path_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_explore_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_fake.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_forget_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_intro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_read_blogs.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_sign_up.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_upgrade_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/activity_view_news.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/content_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/counselor_list_item.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/dialog_progress.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/dropdown_list.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_admission.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_base.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_counselor.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_explore.xml" value="0.2" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_faqs.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_counselor.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_exam.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_exams.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_favourite.xml" value="0.264" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_list_details_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_list_faqs.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_list_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_list_type_branches.xml" value="0.253125" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_news.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_previous_blogs.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_previous_sessions.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/item_prevoius_blogs.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/onboarding_item_container.xml" value="0.253125" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/layout/rv_details_info.xml" value="0.2956204379562044" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/menu/dashboard_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/menu/home_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/CaGui/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.236" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/drawable/connect_background_button.xml" value="0.2285" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/drawable/default_background.xml" value="0.2285" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/drawable/selected_background.xml" value="0.2285" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_aptitude_test.xml" value="0.13125" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_branch_info.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_counselor_dashboard.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_counselor_details.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_exam_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_explore_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_quiz.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_quiz_result.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/activity_upgrade_details.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/explore_list_item.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/fragment_explore.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/fragment_home.xml" value="0.18802732020891924" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_counselor.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_exam.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_exams.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_favourite.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_list_details_info.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_list_type_branches.xml" value="0.24375" />
+        <entry key="..\:/Users/91914/AndroidStudioProjects/MyCareer/app/src/main/res/layout/item_news.xml" value="0.24375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

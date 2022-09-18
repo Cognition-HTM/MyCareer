@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.CounselorProfileActivity"
+    android:background="@color/first_color"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_counselor_activity_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="7sp"
+            android:text="Counselor"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:background="@drawable/round_shape_sheet"
+        android:elevation="40sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/ll_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_counselor_activity_details">
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20sp"-->
+<!--            android:scrollbars="none"-->
+<!--            >-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0sp"-->
+<!--                android:orientation="vertical"-->
+<!--                >-->
+
+                <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#FFFFFf"
+                android:outlineSpotShadowColor="@color/first_color"
+                app:cardCornerRadius="20sp"
+                app:cardElevation="15sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15sp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/iv_counselor_detail_photo"
+                        android:layout_width="match_parent"
+                        android:layout_height="250sp"
+                        android:paddingLeft="6sp"
+                        android:paddingTop="6sp"
+                        android:paddingRight="6sp"
+                        android:paddingBottom="12sp"
+                        android:scaleType="centerInside"
+                        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                    <TextView
+                        android:id="@+id/tv_counselor_detail_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6sp"
+                        android:text="Name"
+                        android:textColor="@color/first_color"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_counselor_detail_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About"
+                        android:layout_marginLeft="6sp"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/iv_counselor_detail_price"
+                            android:layout_width="0sp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:layout_marginLeft="6sp"
+                            android:text="Paid"
+                            android:textColor="@color/first_color"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_linkedin_counselor"
+                            android:layout_width="25sp"
+                            android:layout_height="25sp"
+                            android:layout_marginRight="6sp"
+                            android:src="@drawable/new_linkdin"
+                        />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_counselor_details_blog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_counselor"
+                />
+        </FrameLayout>
+
+<!--            </LinearLayout>-->
+
+<!--        </ScrollView>-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="45sp"
+        android:outlineSpotShadowColor="@color/first_color"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height=".7sp"
+            android:background="@color/first_color"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="11sp"
+            >
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/live"
+                android:layout_marginLeft="10sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_currentMeet"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="10sp"
+                android:text="Next Meet"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/connect_background_button"
+                android:text="Join"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginRight="10sp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.BranchInfoActivity"
+    android:background="@color/second_color"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_counselor_activity_details"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_title_counselor_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="7sp"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_counselor_activity_details"
+        android:background="@drawable/round_shape_sheet"
+        android:elevation="40sp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tl_counselor_edit_title"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:textColor="@color/second_color"
+                app:boxStrokeColor="@color/second_color"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/second_color"
+                app:startIconTint="@color/second_color"
+                app:hintTextColor="@color/second_color"
+                >
+
+                <EditText
+                    android:id="@+id/et_counselor_edit_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Title"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:scrollbars="none"
+                    android:inputType="textMultiLine"
+                    android:layout_marginBottom="20sp"
+                    android:imeOptions="actionGo"
+                    android:cursorVisible="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/et_counselor_edit_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="100sp"
+                android:hint="Description"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:imeOptions="normal"
+                android:scrollbars="none"
+                android:layout_marginBottom="20sp"
+                android:cursorVisible="true"
+                android:inputType="textMultiLine"
+                android:background="@drawable/description_background_line"
+                />
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please enter link for session scheduled after 1hr"
+                android:layout_marginBottom="20sp"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="#EA3E3E"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_counselor_edit_biography_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:visibility="gone"
+                android:background="@drawable/button_background_view_details"
+                android:text=" Done "
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:layout_marginBottom="20sp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="20sp"
+                    android:text="Tap On Meet icon and select Meet Type \n • Create a meeting for later\n• Paste the link in above"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_open_meet"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_weight="1"
+                    android:src="@drawable/meet"
+                    />
+
+
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_counselor_edit_blog_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/button_background_view_details"
+                android:text=" Done "
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_counselor_edit_sessions_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background_view_details"
+                android:text="Done"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20sp"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
