@@ -767,7 +767,7 @@ class FirestoreClass {
 //                println("Yes 1st")
 //                println(document.data.toString())
                 if (document.data == null) {
-//                    fragment.hideProgressDialog()
+                    fragment.hideProgressDialog()
                 } else {
 
                     val favourite = document.toObject(FavoriteMain::class.java)!!
