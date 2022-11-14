@@ -431,12 +431,14 @@
                                 android:paddingLeft="10sp"
                                 >
 
-                                <ImageView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="100sp"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/quiz"
-                                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                               <com.airbnb.lottie.LottieAnimationView
+                                   android:layout_width="120dp"
+                                   android:layout_height="120dp"
+                                   android:scaleType="centerCrop"
+                                   app:lottie_loop="true"
+                                   app:lottie_autoPlay="true"
+                                   android:layout_gravity="center"
+                                   app:lottie_rawRes="@raw/quiz"
                                     />
 
 
@@ -495,13 +497,14 @@
                                 android:paddingLeft="10sp"
                                 >
 
-                                <ImageView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="100sp"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/result"
-                                    app:shapeAppearanceOverlay="@style/roundedImageView"
-                                    />
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:layout_width="116dp"
+                                    android:layout_height="116dp"
+                                    android:scaleType="centerCrop"
+                                    app:lottie_autoPlay="true"
+                                    app:lottie_loop="true"
+                                    app:lottie_rawRes="@raw/res"
+                                    android:layout_gravity="center"/>
 
 
                             </LinearLayout>
