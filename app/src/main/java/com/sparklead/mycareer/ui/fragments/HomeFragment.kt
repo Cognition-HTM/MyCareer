@@ -41,10 +41,10 @@ class HomeFragment : BaseFragment() {
     ): View {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
 
-        val recyclerView : RecyclerView = root.findViewById(R.id.rv_news)
-        recyclerView.layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false)
-        mAdapter  = NewsAdapter(requireActivity())
-        recyclerView.adapter = mAdapter
+//        val recyclerView : RecyclerView = root.findViewById(R.id.rv_news)
+//        recyclerView.layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false)
+//        mAdapter  = NewsAdapter(requireActivity())
+//        recyclerView.adapter = mAdapter
 
 
         val iv = root.findViewById<ImageView>(R.id.iv_upgrade_account)
@@ -95,11 +95,13 @@ class HomeFragment : BaseFragment() {
         showProgressDialog(resources.getString(R.string.please_wait))
         getUserDetails()
         FirestoreClass().getFavouriteListFragment(this)
-        fetchData()
+//        fetchData()
         super.onResume()
     }
 
     fun getFavouriteListSuccess(favouriteListItem: ArrayList<Favourite>){
+
+        hideProgressDialog()
 
         if(favouriteListItem.size == 0 ){
             tv_favourite_empty.visibility = View.VISIBLE
