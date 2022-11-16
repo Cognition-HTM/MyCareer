@@ -7,14 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sparklead.mycareer.R
-import com.sparklead.mycareer.models.Constants
-import com.sparklead.mycareer.models.GlideLoader
-import com.sparklead.mycareer.models.News
+import com.sparklead.mycareer.models.*
 import com.sparklead.mycareer.ui.activities.ViewNewsActivity
 import kotlinx.android.synthetic.main.item_news.view.*
 
 class NewsAdapter(
-    val context: Context,
+    val context: Context
 ): RecyclerView.Adapter<NewsAdapter.NewsViewHolder>(){
 
     private val item = ArrayList<News>()

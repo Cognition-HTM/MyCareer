@@ -3,6 +3,7 @@ package com.sparklead.mycareer.ui.fragments
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import android.widget.ImageView
 import androidx.cardview.widget.CardView
@@ -21,6 +22,13 @@ import com.sparklead.mycareer.ui.adapters.FavouriteAdapter
 import com.sparklead.mycareer.ui.adapters.NewsAdapter
 import com.sparklead.mycareer.ui.firestore.FirestoreClass
 import kotlinx.android.synthetic.main.fragment_home.*
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 class HomeFragment : BaseFragment() {
 
@@ -41,10 +49,10 @@ class HomeFragment : BaseFragment() {
     ): View {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
 
-//        val recyclerView : RecyclerView = root.findViewById(R.id.rv_news)
-//        recyclerView.layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false)
-//        mAdapter  = NewsAdapter(requireActivity())
-//        recyclerView.adapter = mAdapter
+        val recyclerView : RecyclerView = root.findViewById(R.id.rv_news)
+        recyclerView.layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false)
+        mAdapter  = NewsAdapter(requireActivity())
+        recyclerView.adapter = mAdapter
 
 
         val iv = root.findViewById<ImageView>(R.id.iv_upgrade_account)
@@ -95,7 +103,7 @@ class HomeFragment : BaseFragment() {
         showProgressDialog(resources.getString(R.string.please_wait))
         getUserDetails()
         FirestoreClass().getFavouriteListFragment(this)
-//        fetchData()
+        fetchData()
         super.onResume()
     }
 
@@ -118,10 +126,10 @@ class HomeFragment : BaseFragment() {
     private fun fetchData() {
 
         val queue = Volley.newRequestQueue(context)
+        val url =
+            "https://newsapi.org/v2/everything?q=cbse&language=en&from=2022-11-15to=2022-11-16&apiKey=5c62b32d818e424797a8571a4f5bd626"
 
-        val url = "https://newsapi.org/v2/everything?q=cbse&language=en&from=2022-08-25&to=2022-08-13&apiKey=5c62b32d818e424797a8571a4f5bd626"
-
-        val jsonObjectRequest = object :JsonObjectRequest(Request.Method.GET, url, null,
+        val jsonObjectRequest = object : JsonObjectRequest(Request.Method.GET, url, null,
 
             { response ->
                 val newsJsonArray = response.getJSONArray("articles")
@@ -143,8 +151,7 @@ class HomeFragment : BaseFragment() {
                 hideProgressDialog()
             },
             { _ ->
-            })
-        {
+            }) {
             @Throws(AuthFailureError::class)
             override fun getHeaders(): Map<String, String>? {
                 val headers = HashMap<String, String>()
@@ -153,8 +160,6 @@ class HomeFragment : BaseFragment() {
             }
         }
         queue.add(jsonObjectRequest)
-
-
     }
 
 }
